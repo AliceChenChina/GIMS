@@ -1,0 +1,73 @@
+.report-main {
+  .el-form {
+    width: 50%;
+    max-width: 650px;
+  }
+  .data-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, 100px);
+  }
+  .data-item {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 12px;
+    @media screen and(max-width: 1537px) {
+      padding-left: 8px;
+    }
+    @media screen and(max-width: 1281px) {
+      padding-left: 3px;
+    }
+    height: 60px;
+    .number {
+      line-height: 1.2;
+      font-weight: bold;
+      font-size: 28px;
+      @media screen and(max-width: 1537px) {
+        font-size: 19px;
+      }
+      @media screen and(max-width: 1281px) {
+        font-size: 17px;
+      }
+      font-family:PingFangSC-Semibold,PingFang SC;
+    }
+    .data-desc {
+      color: #999;
+      font-size: 14px;
+    }
+  }
+  .border-purple {
+    border-left: 6px solid #BB8CEE;
+  }
+  .border-blue {
+    border-left: 6px solid #498FF5;
+  }
+  .border-orange {
+    border-left: 6px solid #FF7D52;
+  }
+  .border-yellow {
+    border-left: 6px solid #FFB04B;
+  }
+}
+// todo 移到公用样式里
+.el-cascader__dropdown {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+  }
+  color: #EB5954
+}
+
+.el-cascader-node.in-active-path, .el-cascader-node.is-active, .el-cascader-node.is-selectable.in-checked-path {
+  color: #EB5954
+}
+.el-cascader .el-input .el-input__inner:focus, .el-cascader .el-input.is-focus .el-input__inner {
+  border-color: #EB5954
+}
+.el-cascader__suggestion-panel {
+  .el-scrollbar__wrap {
+    margin-bottom: 0 !important;
+  }
+}

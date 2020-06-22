@@ -1,0 +1,4 @@
+@charset "UTF-8";
+[class*=" el-icon-lee"], [class^=el-icon-lee] {
+    font-family: lee-iconfont !important;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.impowerBox{
+    width: auto !important;
+}
+.impowerBox .title {
+    display: none;
+}
+
+.impowerBox .info{
+    display:none;
+}
+
+.wrp_code{
+    margin-top: 0px !important;
+}
+
+.impowerBox .qrcode {
+    width: 157px;
+}
+
+.login_withqrc_code iframe{
+    height: 140px !important;
+}

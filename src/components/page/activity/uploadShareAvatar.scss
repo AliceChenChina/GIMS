@@ -1,0 +1,23 @@
+.upload-share-icon {
+  display: flex;
+  flex-direction: column;
+  .op {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    button {
+      width: 80px;
+    }
+    a {
+      color: #333;
+      margin-left: 10px;
+      cursor:pointer
+    }
+    p {
+      color: #ccc;
+    }
+  }
+  img {
+    border-radius: 8px;
+  }
+}

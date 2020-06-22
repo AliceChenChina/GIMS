@@ -1,0 +1,89 @@
+.employee-list {
+  min-height: 78vh;
+  .tree-card {
+    min-height: 78vh;
+  }
+  .table-view {
+    padding: 20px;
+  }
+}
+.role-list {
+  .pagination {
+    display: none;
+  }
+}
+.power-list {
+  .pagination {
+    display: none;
+  }
+}
+.employee-edit {
+  .el-cascader.el-cascader--small {
+    width: 360px;
+  }
+}
+
+.el-cascader__dropdown {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+  }
+}
+
+.power-list {
+  height: 78vh;
+  overflow: scroll;
+  .power-tree {
+    overflow: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+  }
+}
+
+.workday-calendar {
+  .day-remark {
+    font-size: 12px;
+    white-space: nowrap;
+    width: 100%;
+    line-height: 1.6;
+    padding: 0 4px;
+    box-sizing: border-box;
+    color: #fff;
+    background: red;
+    border-radius: 4px;
+  }
+}
+
+.emp-role-select {
+  .pagination {
+    display: none;
+  }
+}
+.power-list-edit {
+  .el-cascader {
+    width: 100% !important;
+  }
+  .power-edit, .subpower {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    .el-card__body {
+      min-height: 0;
+    }
+  }
+  .subpower {
+    h3 {
+      padding-bottom: 15px;
+    }
+    .el-card__body {
+      min-height: 327px;
+    }
+    .subpower-op {
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 15px;
+    }
+  }
+
+}

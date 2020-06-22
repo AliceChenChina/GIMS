@@ -1,0 +1,40 @@
+.custom-el-filter {
+  .filter-item-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .comp-row {
+    align-items: center;
+    .label {
+      white-space: nowrap;
+      font-size:13px;
+    }
+    &:nth-child(1){
+      margin-right: 10px;
+    }
+    &:nth-child(1) .label:last-of-type{
+      /*margin-right: 10px;*/
+    }
+  }
+  .comp-row {
+    margin: 10px 0;
+  }
+  .comp-row:last-child{
+    margin-bottom: 20px;
+  }
+  .el-custom-filter {
+    margin: 0 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  .el-date-editor--daterange {
+    max-width: 400px;
+  }
+  .el-button-group {
+    width: 100%;
+    display: flex;
+  }
+  .el-select {
+    width: 100%;
+  }
+}

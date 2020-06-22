@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.header {
+    background-color: #2E2C46; /*242f42 2E2C46 */
+}
+
+.login-wrap {
+    background: rgba(56, 157, 170, 0.82);
+}
+
+.plugins-tips {
+    background: #f2f2f2;
+}
+
+.plugins-tips a {
+    color: #EB5954;
+}
+
+.el-upload--text em {
+    color: #EB5954;
+}
+
+.pure-button {
+    background: #EB5954;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: #EB5954 !important;
+    border-color: #EB5954 !important;
+}
+
+.tags-li.active {
+    border: 1px solid #EB5954;
+    background-color: #EB5954;
+}
+
+.collapse-btn:hover {
+    background: #EB5954;
+}
+
+/*侧边栏激活的一级菜单高亮*/
+.sidebar-el-menu .el-menu-item.is-active {
+    background-color: #242338 !important;
+}
+
+/*边框定义 */
+.sidebar-el-menu .el-menu-item{
+    border-left: 4px solid rgb(46, 44, 70);
+}
+.sidebar-el-menu .el-menu-item.is-active{
+    border-left: 4px solid #EB5954;
+}
+.sidebar-el-menu .el-menu-item:hover{
+    border-left: 4px solid #EB5954;
+}
+
+    /*重定义 默认链接颜色*/
+.el-link.el-link--default:hover {
+    color: #EB5954 !important;
+}
+
+/*重定义 鼠标放上去下划线线颜色*/
+.el-link.el-link--default.is-underline:hover:after {
+    border-bottom: 1px solid #EB5954 !important;
+}
+
+/*放上去颜色  background: rgba(235, 89, 84, 0.82);*/
+
+.primary-color{
+    color: #EB5954;
+}
+.primary-blue-color{
+    color:#2b85e4;
+}
